@@ -13,7 +13,9 @@ class Hero():
 
         self.mode = True
 
-    
+    def up(self):
+        print('Какая-то логика')
+
     def cameraBind(self):
        base.disableMouse()
        base.camera.setH(180)
